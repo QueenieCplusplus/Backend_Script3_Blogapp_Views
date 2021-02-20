@@ -61,11 +61,13 @@ urls, views and templates
                })
            ~     
            
-3. 至 top level site 創建 templates 資料夾， 利用 mkdir 指令與 pod 指令。 （範例：截圖7）           
-           
-4. 製作 templates called show_poupou.html for katesfun to render。
+3. 至 top level site 創建 templates 資料夾， 利用 mkdir 指令與 pod 指令。 （範例：截圖 7） 
 
-5. 回到 top level site 執行 python manage.py runserver。
+4. 回到 app level site 的 settings.py 手動加入 templates 路徑，溫馨提醒範例如截圖 10a。 （範例：截圖 8 ~ 10a）       
+           
+5. 製作 templates called show_poupou.html for katesfun to render。
+
+6. 回到 top level site 執行 python manage.py runserver。
 
 ![](https://raw.githubusercontent.com/QueenieCplusplus/Backend_Script3_Blogapp_Views/main/17.png)
 
