@@ -59,10 +59,13 @@ urls, views and templates
                return render(request, 'show_poupou.html', {
                    'current_time': str(datetime.now()),
                })
-           ~      
-3. 製作 templates called show_poupou.html for katesfun to render。
+           ~     
+           
+3. 至 top level site 創建 templates 資料夾， 利用 mkdir 指令與 pod 指令。 （範例：截圖7）           
+           
+4. 製作 templates called show_poupou.html for katesfun to render。
 
-4. 回到 top level site 執行 python manage.py runserver。
+5. 回到 top level site 執行 python manage.py runserver。
 
 ![](https://raw.githubusercontent.com/QueenieCplusplus/Backend_Script3_Blogapp_Views/main/17.png)
 
