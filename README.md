@@ -65,7 +65,7 @@ urls, views and templates
 
 4. 回到 app level site 的 settings.py 手動加入 templates 路徑，溫馨提醒範例如截圖 10a。 （範例：截圖 8 ~ 10a，結構圖詳見截圖 11）       
            
-5. 製作 templates called show_poupou.html for katesfun to render。
+5. 製作 templates called show_poupou.html for katesfun to render。（範例：截圖 12 ~ 15 ） 
 
     進入結構中：
     
@@ -102,7 +102,7 @@ urls, views and templates
                       ~                                                                               
                       "show_poupou.html" 20L, 431C
 
-6. 回到 top level site 執行 python manage.py runserver。
+6. 回到 top level site 執行 python manage.py runserver。（範例：截圖 16 ） 
 
 ![](https://raw.githubusercontent.com/QueenieCplusplus/Backend_Script3_Blogapp_Views/main/17.png)
 
