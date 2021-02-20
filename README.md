@@ -1,6 +1,8 @@
 # Backend_Script3_Blogapp_Views
 urls, views and templates
 
+完整專案包：https://github.com/QueenieCplusplus/Backend_Script3_Blogapp_Views/tree/main/ksproj
+
 步驟 1 ~ 17, 請詳見 file 截圖。
 
 1. 先至 app-level 的 site dir 修改 urls.py (截圖2錯誤示範，截圖4為正確示範。)
