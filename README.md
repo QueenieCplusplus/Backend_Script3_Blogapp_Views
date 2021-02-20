@@ -63,7 +63,7 @@ urls, views and templates
            
 3. 至 top level site 創建 templates 資料夾， 利用 mkdir 指令與 pod 指令。 （範例：截圖 7、12） 
 
-4. 回到 app level site 的 settings.py 手動加入 templates 路徑，溫馨提醒範例如截圖 10a。 （範例：截圖 8 ~ 10a）       
+4. 回到 app level site 的 settings.py 手動加入 templates 路徑，溫馨提醒範例如截圖 10a。 （範例：截圖 8 ~ 10a，結構圖詳見截圖 11）       
            
 5. 製作 templates called show_poupou.html for katesfun to render。
 
