@@ -46,6 +46,23 @@ urls, views and templates
 
 2. 至 blog app 下層的 views.py 修改函數 katesfun。
 
+          from django.shortcuts import render
+
+           # Create your views here
+           # kblogs/views.py
+
+           from django.http import HttpResponse
+           from datetime import datetime
+
+           def katesfun(request):
+               #return HttpResponse("Poupou cate said hi to you :)")
+               return render(request, 'show_poupou.html', {
+                   'current_time': str(datetime.now()),
+               })
+           ~      
+3. 製作 templates called show_poupou.html for katesfun to render。
+
+4. 回到 top level site 執行 python manage.py runserver。
 
 ![](https://raw.githubusercontent.com/QueenieCplusplus/Backend_Script3_Blogapp_Views/main/17.png)
 
