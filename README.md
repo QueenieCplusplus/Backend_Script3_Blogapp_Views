@@ -67,6 +67,41 @@ urls, views and templates
            
 5. 製作 templates called show_poupou.html for katesfun to render。
 
+    進入結構中：
+    
+           (k0219) KatesAndroiddeMacBook-Pro:kblog katesandroid$ cd ..
+           (k0219) KatesAndroiddeMacBook-Pro:site0219 katesandroid$ ls
+           db.sqlite3	kblog		manage.py	site0219	templates
+           (k0219) KatesAndroiddeMacBook-Pro:site0219 katesandroid$ cd templates
+           (k0219) KatesAndroiddeMacBook-Pro:templates katesandroid$ ls
+           show_poupou.html
+           (k0219) KatesAndroiddeMacBook-Pro:templates katesandroid$ vim show_poupou.html
+
+                      <!-- show_poupou.html -->
+
+                      <!DOCTYPE html>
+                      <html>
+                          <head>
+                              <title>here we come from PattyAppier!</title>
+                              <style>
+                                  body {
+                                     background-color: lightyellow;
+                                  }
+                                  em {
+                                      color: LightSeaGreen;
+                                  }
+                              </style>
+                          </head>
+                          <body>
+                              <h1>Poupoucat is hungry now, show time at:</h1>
+                              <em>{{ current_time }}</em>
+                          </body>
+                      </html>
+                      ~                                                                               
+                      ~                                                                               
+                      ~                                                                               
+                      "show_poupou.html" 20L, 431C
+
 6. 回到 top level site 執行 python manage.py runserver。
 
 ![](https://raw.githubusercontent.com/QueenieCplusplus/Backend_Script3_Blogapp_Views/main/17.png)
