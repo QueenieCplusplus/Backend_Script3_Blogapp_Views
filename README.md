@@ -3,7 +3,7 @@ urls, views and templates
 
 步驟 1 ~ 17, 請詳見 file 截圖。
 
-1. 先至 app-level 的 site dir 修改 urls.py
+1. 先至 app-level 的 site dir 修改 urls.py (截圖2錯誤示範，截圖4為正確示範。)
 
            (k0219) KatesAndroiddeMacBook-Pro:site0219 katesandroid$ cd site0219
            (k0219) KatesAndroiddeMacBook-Pro:site0219 katesandroid$ vim urls.py
@@ -44,7 +44,7 @@ urls, views and templates
         ]
 
 
-
+2. 至 blog app 下層的 views.py 修改函數 katesfun。
 
 
 ![](https://raw.githubusercontent.com/QueenieCplusplus/Backend_Script3_Blogapp_Views/main/17.png)
